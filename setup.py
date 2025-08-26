@@ -7,19 +7,19 @@ except ImportError:
 
 setup(
     name='django-subcommandir',
-    version='0.3.0',
+    version='0.3.1',
     description='Django subcommands in subdirectories',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='Sergei Pikhovkin',
     author_email='s@pikhovkin.ru',
-    url='https://github.com/pikhovkin/django-subcommandir',
+    url='https://github.com/piklema/django-subcommandir',
     packages=[
         'subcommandir',
     ],
     include_package_data=True,
     install_requires=[
-        'Django>=3.1,<4.2',
+        'Django>=3.1,<5.3',
     ],
     python_requires='>=3.7,<4.0',
     license='MIT',
